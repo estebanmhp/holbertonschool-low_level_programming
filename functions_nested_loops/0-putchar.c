@@ -1,4 +1,4 @@
-#include "headerhb.h"
+#include "main.h"
 
 /**
  * main - Entry point
@@ -11,7 +11,7 @@ int main(void)
 	int n;
 	char c[] = "_putchar";
 
-	for (n = 0; n <= 8; n++)
+	for (n = 0; n <= 7; n++)
 	{
 		_putchar(c[n]);
 	}
