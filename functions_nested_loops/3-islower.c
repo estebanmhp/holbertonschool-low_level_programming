@@ -2,9 +2,10 @@
 
 /**
  * _islower - function to know if it is lowercase or not
+ * @c: parameter to keep the value of the return
  * Return: int
  */
-int _islower (int c)
+int _islower(int c)
 {
 	int x;
 
