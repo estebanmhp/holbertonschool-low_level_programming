@@ -33,6 +33,8 @@ void times_table(void)
 			_putchar(' ');
 			m++;
 		}
+		if (n == 9)
+			break;
 		_putchar('\n');
 		n++;
 	}
