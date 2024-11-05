@@ -1,6 +1,6 @@
 C - HELLO WORLD
 
-*Meeting and understanding C*
+Meeting and understanding C
 
 Task #0 - How to pre-process a C file.
 Task #1 - How to compile a C file without linking.
