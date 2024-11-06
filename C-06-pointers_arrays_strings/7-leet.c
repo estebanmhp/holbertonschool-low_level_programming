@@ -9,7 +9,7 @@ char *leet(char *s)
 {
 	int i = 0;
 
-	char n[] = "4433007721";
+	char n[] = "4433007711";
 	char l[] = "aAeEoOtTlL";
 
 
@@ -17,7 +17,7 @@ char *leet(char *s)
 	{
 		int c = 0;
 
-		while (n[c] != '\0' && l[c] != '\0')
+		while (l[c] != '\0')
 		{
 			if (s[i] == l[c])
 				s[i] = n[c];
