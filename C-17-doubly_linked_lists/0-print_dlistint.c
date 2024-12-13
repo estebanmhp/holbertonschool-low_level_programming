@@ -10,6 +10,8 @@ size_t print_dlistint(const dlistint_t *h)
 	size_t size = 0;
 	const dlistint_t *curr = h;
 
+	if (curr == NULL)
+		return (size);
 	while (curr->prev != NULL)
 		curr = curr->prev;
 	while (curr != NULL)
